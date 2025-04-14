@@ -3,7 +3,7 @@
 > A cutting-edge freelance team hiring app powered by AI – built as a Final Year Project at SIST College, Chennai.
 
 👤 **Student Name:** *DHARSHINY U*  
-🆔 **Roll Number:** *42290024*
+🆔 **Register Number:** *42290024*
 
 ---
 
