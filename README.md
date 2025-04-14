@@ -110,4 +110,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Crafted with ❤️ by [TechAlhan826](https://github.com/TechAlhan826) – Contribute if u found any bugs 😄
+Crafted with ❤️ by [dharshiny26](https://github.com/TechAlhan826) – Contribute if u found any bugs 😄

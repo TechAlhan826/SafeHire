@@ -2,7 +2,7 @@
 # SafeHire React Native Application
 
 ## Screens
- ![SafeHire Mobile](https://user-images.githubusercontent.com/63795656/212247890-3f915445-6889-43a8-b7b5-b37670f4a709.png)
+ <!-- ![SafeHire Mobile](https://user-images.githubusercontent.com/63795656/212247890-3f915445-6889-43a8-b7b5-b37670f4a709.png) -->
 
 ## Overall Working
 - This is freelancing marketplace where
@@ -16,6 +16,6 @@
 
 ## Authors
 
-- [@TechAlhan826](https://github.com/TechAlhan826/SafeHire/tree/main/rn-mobile-app)
+- [@dharshiny26](https://github.com/TechAlhan826/SafeHire/tree/main/rn-mobile-app)
 
 
