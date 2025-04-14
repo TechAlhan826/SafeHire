@@ -1,2 +1,2 @@
-export const BASE_URL = 'https://9134-2409-40f4-10f7-1c82-4d2d-11c4-7aa5-a291.ngrok-free.app/api/v1';
-export const PAYMENT_BASE_URL = 'https://9134-2409-40f4-10f7-1c82-4d2d-11c4-7aa5-a291.ngrok-free.app';
+export const BASE_URL = 'https://safehire-backend.onrender.com/api/v1';
+export const PAYMENT_BASE_URL = 'https://safehire-backend.onrender.com';

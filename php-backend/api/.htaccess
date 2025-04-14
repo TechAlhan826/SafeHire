@@ -1,0 +1,48 @@
+# Enable rewrite engine
+RewriteEngine On
+
+# Set the base application directory
+RewriteBase /api/
+
+# Redirect to index.php if not already there or not a file or directory
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
+
+# Set headers for CORS
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type, Authorization, X-Requested-With"
+</IfModule>
+
+# Disable directory listings
+Options -Indexes
+
+# Block access to hidden files and directories
+<IfModule mod_rewrite.c>
+    RewriteCond %{SCRIPT_FILENAME} -d [OR]
+    RewriteCond %{SCRIPT_FILENAME} -f
+    RewriteRule "(^|/)\." - [F]
+</IfModule>
+
+# Block access to sensitive files
+<FilesMatch "(\.(bak|config|sql|fla|ini|log|sh|inc|swp|dist)|~)$">
+    Order allow,deny
+    Deny from all
+    Satisfy All
+</FilesMatch>
+
+# PHP settings
+<IfModule mod_php7.c>
+    # Handle PHP errors
+    php_flag display_errors Off
+    php_value error_reporting E_ALL
+    
+    # Maximum execution time
+    php_value max_execution_time 120
+    
+    # Maximum upload file size
+    php_value upload_max_filesize 10M
+    php_value post_max_size 10M
+</IfModule>

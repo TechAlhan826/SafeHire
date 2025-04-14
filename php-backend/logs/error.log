@@ -1,0 +1,38 @@
+[03-Apr-2025 14:32:07 UTC] Database Connection Error: could not find driver
+[03-Apr-2025 14:32:07 UTC] PHP Fatal error:  Uncaught Exception: Database connection error. Please try again later. in /home/runner/workspace/backend/config/Database.php:45
+Stack trace:
+#0 /home/runner/workspace/backend/index.php(31): DatabaseManager->getConnection()
+#1 {main}
+  thrown in /home/runner/workspace/backend/config/Database.php on line 45
+[03-Apr-2025 14:32:58 UTC] PHP Warning:  Undefined array key "port" in /home/runner/workspace/backend/config/Database.php on line 29
+[03-Apr-2025 14:32:58 UTC] Database Connection Error: SQLSTATE[08006] [7] invalid integer value "dbname=neondb" for connection option "port"
+[03-Apr-2025 14:32:58 UTC] PHP Fatal error:  Uncaught Exception: Database connection error. Please try again later. in /home/runner/workspace/backend/config/Database.php:51
+Stack trace:
+#0 /home/runner/workspace/backend/index.php(31): DatabaseManager->getConnection()
+#1 {main}
+  thrown in /home/runner/workspace/backend/config/Database.php on line 51
+[03-Apr-2025 14:33:12 UTC] PHP Warning:  Undefined array key "port" in /home/runner/workspace/backend/config/Database.php on line 29
+[03-Apr-2025 14:33:12 UTC] Database Connection Error: SQLSTATE[08006] [7] invalid integer value "dbname=neondb" for connection option "port"
+[03-Apr-2025 14:33:12 UTC] Connection String: Using DATABASE_URL env var
+[03-Apr-2025 14:33:12 UTC] DB Host: ep-small-frost-a5lan1nf.us-east-2.aws.neon.tech
+[03-Apr-2025 14:33:12 UTC] DB Name: neondb
+[03-Apr-2025 14:33:12 UTC] PHP Fatal error:  Uncaught Exception: Database connection error. Please try again later. in /home/runner/workspace/backend/config/Database.php:54
+Stack trace:
+#0 /home/runner/workspace/backend/index.php(31): DatabaseManager->getConnection()
+#1 {main}
+  thrown in /home/runner/workspace/backend/config/Database.php on line 54
+[03-Apr-2025 15:01:39 UTC] PHP Warning:  Undefined array key "port" in /home/runner/workspace/backend/config/Database.php on line 29
+[03-Apr-2025 15:01:39 UTC] Database Connection Error: SQLSTATE[08006] [7] invalid integer value "dbname=neondb" for connection option "port"
+[03-Apr-2025 15:01:39 UTC] Connection String: Using DATABASE_URL env var
+[03-Apr-2025 15:01:39 UTC] DB Host: ep-small-frost-a5lan1nf.us-east-2.aws.neon.tech
+[03-Apr-2025 15:01:39 UTC] DB Name: neondb
+[03-Apr-2025 15:01:39 UTC] PHP Fatal error:  Uncaught Exception: Database connection error. Please try again later. in /home/runner/workspace/backend/config/Database.php:54
+Stack trace:
+#0 /home/runner/workspace/backend/index.php(31): DatabaseManager->getConnection()
+#1 {main}
+  thrown in /home/runner/workspace/backend/config/Database.php on line 54
+[03-Apr-2025 15:02:21 UTC] Connected using DATABASE_URL: pgsql:host=ep-small-frost-a5lan1nf.us-east-2.aws.neon.tech;port=5432;dbname=neondb
+[03-Apr-2025 17:46:34 UTC] Connected using DATABASE_URL: pgsql:host=ep-small-frost-a5lan1nf.us-east-2.aws.neon.tech;port=5432;dbname=neondb
+[03-Apr-2025 18:07:48 UTC] Connected using DATABASE_URL: pgsql:host=ep-small-frost-a5lan1nf.us-east-2.aws.neon.tech;port=5432;dbname=neondb
+[04-Apr-2025 08:27:16 UTC] Connected using DATABASE_URL: pgsql:host=ep-small-frost-a5lan1nf.us-east-2.aws.neon.tech;port=5432;dbname=neondb
+[05-Apr-2025 14:29:37 UTC] Connected using PostgreSQL DATABASE_URL: pgsql:host=ep-small-frost-a5lan1nf.us-east-2.aws.neon.tech;port=5432;dbname=neondb
